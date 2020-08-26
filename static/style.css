@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  font-family: sans-serif;
+}
+.Layout {
+  min-height: 100vh;
+
+  background: linear-gradient(84.88deg, #2ebec6 0%, #31196d 100%);
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background-color: rgba(255, 255, 255, 0);
+  font-family: "Poppins", sans-serif;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  margin:0;
+  width: 30%;
+}
+.nav-links a{
+  position: relative;
+  top:25%;
+  color: white;
+  text-decoration: none;
+  margin-top: 20px;
+  
+}
+.nav-links li {
+  list-style: none;
+  text-align: center;
+}
+
+.activeNav {
+  width: 120px;
+  height: 44px;
+  background: linear-gradient(270deg, #5ebabf 0%, #bfaeea 92.86%);
+  border-radius: 10px;
+  vertical-align: middle;
+  transform: scale(1);
+  animation: pulse 2s infinite;
+ 
+}
+.siteName{
+   color:white;
+   font-family: "Poppins", sans-serif;
+
+}
+.siteNameDiv{
+    width: fit-content;
+    margin-left: auto;
+    margin-right:auto;
+}
+.circle-img-div{
+    position: relative;
+    width: fit-content;
+    margin-left: auto;
+    margin-right:auto;
+    top:250px;
+}
+.circle-img{
+    width: 222px;
+    height: 223px;
+    border-radius: 50%;
+}
+   .linkedIn-svg{
+    position:absolute;
+    right: 47%;
+    bottom: 10%;
+   }
+   .gitHub-svg{
+    position:absolute;
+    right: 50%;
+    bottom: 10%;
+   }
+   svg path:hover{
+    fill:black !important;
+   }
+@keyframes pulse {
+	0% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+	}
+
+	70% {
+		transform: scale(1);
+		box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+	}
+
+	100% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+	}
+}
+.introductionDiv{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    top:100px;
+}
+.introduction{
+    color:white;
+    font-family: "Poppins", sans-serif;
+    
+    text-align: center;
+    margin:0;
+}
+.Minesweeper,.Itunes-Library,.Drone-Flight-Planner{
+    min-height: 55vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;  
+    padding-bottom: 50px;  
+}
+.left-container{
+
+flex: 2 1 0;
+}
+.right-container{
+    flex: 1 1 0;
+    justify-content: center;
+    align-self:center;
+    align-items: center;
+}
+.carousel-img{
+    width: fit-content;
+    margin-left:auto;
+    margin-right: auto;
+    height: fit-content;
+   
+}
+
+
+.carousel-caption h3,p{
+  margin:0;
+}
+.carousel-caption{
+  right:0;
+  left: 0;
+  position: relative;
+  height: 100%;
+  width: fit-content;
+  margin-left:auto;
+  margin-right: auto;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+.carousel{
+    height: 100%;
+}
+.img-carousel img{
+  height:100%;
+  width:100% ;
+  max-width: 890px;
+  object-fit: contain; 
+}
+.carousel-indicators{
+  margin-bottom: 0;
+}
+.carousel-item{
+  height:100%;
+}
+.right-text p,h4{
+  color:white;
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+  padding-right:25px;
+}
+.right-text{
+  
+  align-items: center;
+}

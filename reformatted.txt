@@ -1,0 +1,122 @@
+ <div className="card">
+        <div className="card-image waves-effect waves-block waves-light">
+          <Image className="activator" src="/static/images/minesweeper.png" />
+        </div>
+        <div className="card-content">
+          <span className="card-title activator grey-text text-darken-4 font-weight-bold">
+            Minesweeper<i className="material-icons right">more_vert</i>
+          </span>
+
+          <a href="https://morning-dusk-09436.herokuapp.com/" target="_blank">
+            <h6>Try it out here</h6>
+          </a>
+        </div>
+        <div className="card-reveal">
+          <span className="card-title grey-text text-darken-4 font-weight-bold">
+            Minesweeper<i className="material-icons right">close</i>
+          </span>
+          <h6>
+            This is one of my capstone projects after learning how to use react.
+            <br />
+            <br />
+            The task was to building a gaming using react.
+            <br />
+            <br />
+            I chose to build minesweeper.
+            <br />
+            <br />
+            This project was challenging but once I figured out the main logic,
+            it all came together.
+            <br />
+            <br />
+            After testing and debugging this app ,I deployed and hosted it on
+            Heroku.
+            <br />
+            <br />
+            Click on the 'try it out' link and see if you can win.
+          </h6>
+        </div>
+      </div>
+
+
+
+<div className="card">
+          <div className="card-image waves-effect waves-block waves-light">
+            <Image className="activator" src="/static/images/store.png" />
+          </div>
+          <div className="card-content">
+            <span className="card-title activator grey-text text-darken-4 font-weight-bold">
+              Itunes Media Library
+              <i className="material-icons right">more_vert</i>
+            </span>
+
+            <a
+              href="https://immense-meadow-75751.herokuapp.com/"
+              target="_blank"
+            >
+              <h6>Try it out here</h6>
+            </a>
+          </div>
+          <div className="card-reveal">
+            <span className="card-title grey-text text-darken-4 font-weight-bold">
+              Itunes Media Library<i className="material-icons right">close</i>
+            </span>
+            <h6>
+              In this CapStone Project I applied my knowledge of using
+              third-party api's with react and express.
+              <br />
+              <br />
+              This project uses the Itunes api and allows the user to search for
+              media using different search catergories.
+              <br />
+              <br />
+              It also allows the user to store media they like on a favourites
+              list which they can view.This project was also deployed on Heroku.
+              <br />
+              <br />
+              Click on 'try it out here' to see for yourself.
+            </h6>
+          </div>
+        </div>
+
+
+<div className="card">
+          <div className="card-image waves-effect waves-block waves-light">
+            <Image className="activator" src="/static/images/drone-app.png" />
+          </div>
+          <div className="card-content">
+            <span className="card-title activator grey-text text-darken-4 font-weight-bold">
+              Drone Operation App
+              <i className="material-icons right">more_vert</i>
+            </span>
+
+            <a href="https://rpasflighplanner.herokuapp.com/" target="_blank">
+              <h6>Try it out here</h6>
+            </a>
+          </div>
+          <div className="card-reveal">
+            <span className="card-title grey-text text-darken-4 font-weight-bold">
+              Drone Operation App<i className="material-icons right">close</i>
+            </span>
+            <h6>
+              This is my final Cap Stone Project of my bootcamp ,where I apply
+              everything I have learnt in the MERN stack.
+              <br />
+              <br />
+              While I was completing my bootcamp I was also undertaking a drone
+              coarse for a RPAS lisence.
+              <br />
+              <br />
+              This is where this app idea came from.
+              <br />
+              <br />
+              It allows user to plan drone flights and have all the nessessary
+              documents.
+              <br />
+              <br />A user also has access to weather data using their gps
+              location or can get weather data at a location of a planned
+              flight.
+            </h6>
+          </div>
+        </div>
+
