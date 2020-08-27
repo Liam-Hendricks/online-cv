@@ -16,7 +16,7 @@ const index = () => {
 
     <div className="introductionDiv">
 
-      <h3 className="introduction">Hello! My name is Liam hendricks, and I’m a Cape Town based Full Stack Web Developer.
+      <h3 className="introduction">Hello! My name is Liam hendricks, and I’m a Cape Town based <br/>Full Stack Web Developer.
       <br/>
       <br/>
         I have a diverse set of skills,ranging from design to HTML- CSS - JavaScript,all the way to the MERN stack. 

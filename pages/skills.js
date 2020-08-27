@@ -1,49 +1,62 @@
 import Layout from "../components/MyLayout";
 
-const skills=()=>{
-  return(
-  <Layout>
+const skills = () => {
+  return (
+    <Layout>
       <div className="skills-container">
-      <div className="skills-grid">
-        <sec className="skill html">
-          <div className="icon">
-            <i className="fab fa-html5"/>
-          </div>
-        </sec>
-        <sec className="skill css">
-          <div className="icon">
-            <i className="fab fa-css3-alt"/>
-          </div>
-        </sec>
-        <sec className="skill js">
-          <div className="icon">
-            <i className="fab fa-js-square"/>
-          </div>
-        </sec>
-        <sec className="skill react">
-          <div className="icon">
-            <i className="fab fa-react"/>
-          </div>
-        </sec>
-        <sec className="skill node">
-          <div className="icon">
-            <div className="icon-holder">
-            < i className="fab fa-node"/>  
+        <div className="skills-grid">
+          <sec className="skill html">
+            <div className="icon">
+              <i className="fab fa-html5" />
             </div>
-            
-          </div>
-        </sec>
-        <sec className="skill git">
-          <div className="icon">
-            <i className="fab fa-github-square"/>
-          </div>
-        </sec>
+            <div className="skill-name">
+              <h3>HTML</h3>
+            </div>
+          </sec>
+          <sec className="skill css">
+            <div className="icon">
+              <i className="fab fa-css3-alt" />
+            </div>
+            <div className="skill-name">
+              <h3>CSS</h3>
+            </div>
+          </sec>
+          <sec className="skill js">
+            <div className="icon">
+              <i className="fab fa-js-square" />
+            </div>
+            <div className="skill-name">
+              <h3>JavaScript</h3>
+            </div>
+          </sec>
+          <sec className="skill react">
+            <div className="icon">
+              <i className="fab fa-react" />
+            </div>
+            <div className="skill-name">
+              <h3>React.js</h3>
+            </div>
+          </sec>
+          <sec className="skill node">
+            <div className="icon">
+              <i className="fab fa-node" />
+            </div>
+            <div className="skill-name">
+              <h3>Node.js</h3>
+            </div>
+          </sec>
+          <sec className="skill git">
+            <div className="icon">
+              <i className="fab fa-github-square" />
+            </div>
+            <div className="skill-name">
+              <h3>GitHub</h3>
+            </div>
+          </sec>
+        </div>
       </div>
-      </div>
-    
-
-  </Layout>);
-
-}
+    </Layout>
+  );
+};
 
 export default skills;
